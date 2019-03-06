@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="camera_calibration" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\opencv-2.4.10\;CMake Files\..\..\..\opencv-2.4.10\build\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/home/ccc/project/gazebo_project/build-get_image-Desktop_Qt_5_8_0_GCC_64bit-Default" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/ccc/project/gazebo_project/build-get_image-Desktop_Qt_5_8_0_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/ccc/project/gazebo_project/build-get_image-Desktop_Qt_5_8_0_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/ccc/project/gazebo_project/build-get_image-Desktop_Qt_5_8_0_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/ccc/project/gazebo_project/build-get_image-Desktop_Qt_5_8_0_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="edit_cache">
+         <Option working_dir="/home/ccc/project/gazebo_project/build-get_image-Desktop_Qt_5_8_0_GCC_64bit-Default" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/ccc/project/gazebo_project/build-get_image-Desktop_Qt_5_8_0_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 edit_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/ccc/project/gazebo_project/build-get_image-Desktop_Qt_5_8_0_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/ccc/project/gazebo_project/build-get_image-Desktop_Qt_5_8_0_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/ccc/project/gazebo_project/build-get_image-Desktop_Qt_5_8_0_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="/home/ccc/project/gazebo_project/build-get_image-Desktop_Qt_5_8_0_GCC_64bit-Default" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/ccc/project/gazebo_project/build-get_image-Desktop_Qt_5_8_0_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/ccc/project/gazebo_project/build-get_image-Desktop_Qt_5_8_0_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/ccc/project/gazebo_project/build-get_image-Desktop_Qt_5_8_0_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/ccc/project/gazebo_project/build-get_image-Desktop_Qt_5_8_0_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="camera_calibration">
+         <Option output="/home/ccc/project/gazebo_project/build-get_image-Desktop_Qt_5_8_0_GCC_64bit-Default/camera_calibration" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/ccc/project/gazebo_project/build-get_image-Desktop_Qt_5_8_0_GCC_64bit-Default" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/ccc/opencv-2.4.10/build" />
+            <Add directory="/home/ccc/opencv-2.4.10/include" />
+            <Add directory="/home/ccc/opencv-2.4.10/include/opencv" />
+            <Add directory="/home/ccc/opencv-2.4.10/modules/calib3d/include" />
+            <Add directory="/home/ccc/opencv-2.4.10/modules/contrib/include" />
+            <Add directory="/home/ccc/opencv-2.4.10/modules/core/include" />
+            <Add directory="/home/ccc/opencv-2.4.10/modules/features2d/include" />
+            <Add directory="/home/ccc/opencv-2.4.10/modules/flann/include" />
+            <Add directory="/home/ccc/opencv-2.4.10/modules/gpu/include" />
+            <Add directory="/home/ccc/opencv-2.4.10/modules/highgui/include" />
+            <Add directory="/home/ccc/opencv-2.4.10/modules/imgproc/include" />
+            <Add directory="/home/ccc/opencv-2.4.10/modules/legacy/include" />
+            <Add directory="/home/ccc/opencv-2.4.10/modules/ml/include" />
+            <Add directory="/home/ccc/opencv-2.4.10/modules/nonfree/include" />
+            <Add directory="/home/ccc/opencv-2.4.10/modules/objdetect/include" />
+            <Add directory="/home/ccc/opencv-2.4.10/modules/ocl/include" />
+            <Add directory="/home/ccc/opencv-2.4.10/modules/photo/include" />
+            <Add directory="/home/ccc/opencv-2.4.10/modules/stitching/include" />
+            <Add directory="/home/ccc/opencv-2.4.10/modules/superres/include" />
+            <Add directory="/home/ccc/opencv-2.4.10/modules/ts/include" />
+            <Add directory="/home/ccc/opencv-2.4.10/modules/video/include" />
+            <Add directory="/home/ccc/opencv-2.4.10/modules/videostab/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/ccc/project/gazebo_project/build-get_image-Desktop_Qt_5_8_0_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 camera_calibration" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/ccc/project/gazebo_project/build-get_image-Desktop_Qt_5_8_0_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/ccc/project/gazebo_project/build-get_image-Desktop_Qt_5_8_0_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/ccc/project/gazebo_project/build-get_image-Desktop_Qt_5_8_0_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="camera_calibration/fast">
+         <Option output="/home/ccc/project/gazebo_project/build-get_image-Desktop_Qt_5_8_0_GCC_64bit-Default/camera_calibration" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/ccc/project/gazebo_project/build-get_image-Desktop_Qt_5_8_0_GCC_64bit-Default" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/ccc/opencv-2.4.10/build" />
+            <Add directory="/home/ccc/opencv-2.4.10/include" />
+            <Add directory="/home/ccc/opencv-2.4.10/include/opencv" />
+            <Add directory="/home/ccc/opencv-2.4.10/modules/calib3d/include" />
+            <Add directory="/home/ccc/opencv-2.4.10/modules/contrib/include" />
+            <Add directory="/home/ccc/opencv-2.4.10/modules/core/include" />
+            <Add directory="/home/ccc/opencv-2.4.10/modules/features2d/include" />
+            <Add directory="/home/ccc/opencv-2.4.10/modules/flann/include" />
+            <Add directory="/home/ccc/opencv-2.4.10/modules/gpu/include" />
+            <Add directory="/home/ccc/opencv-2.4.10/modules/highgui/include" />
+            <Add directory="/home/ccc/opencv-2.4.10/modules/imgproc/include" />
+            <Add directory="/home/ccc/opencv-2.4.10/modules/legacy/include" />
+            <Add directory="/home/ccc/opencv-2.4.10/modules/ml/include" />
+            <Add directory="/home/ccc/opencv-2.4.10/modules/nonfree/include" />
+            <Add directory="/home/ccc/opencv-2.4.10/modules/objdetect/include" />
+            <Add directory="/home/ccc/opencv-2.4.10/modules/ocl/include" />
+            <Add directory="/home/ccc/opencv-2.4.10/modules/photo/include" />
+            <Add directory="/home/ccc/opencv-2.4.10/modules/stitching/include" />
+            <Add directory="/home/ccc/opencv-2.4.10/modules/superres/include" />
+            <Add directory="/home/ccc/opencv-2.4.10/modules/ts/include" />
+            <Add directory="/home/ccc/opencv-2.4.10/modules/video/include" />
+            <Add directory="/home/ccc/opencv-2.4.10/modules/videostab/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/ccc/project/gazebo_project/build-get_image-Desktop_Qt_5_8_0_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 camera_calibration/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/ccc/project/gazebo_project/build-get_image-Desktop_Qt_5_8_0_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/ccc/project/gazebo_project/build-get_image-Desktop_Qt_5_8_0_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/ccc/project/gazebo_project/build-get_image-Desktop_Qt_5_8_0_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/home/ccc/project/gazebo_project/get_image/main.cpp">
+         <Option target="camera_calibration"/>
+      </Unit>
+      <Unit filename="/home/ccc/project/gazebo_project/get_image/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/home/ccc/project/gazebo_project/get_image/../../../opencv-2.4.10/build/OpenCVConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\opencv-2.4.10\build\" />
+      </Unit>
+      <Unit filename="/home/ccc/project/gazebo_project/get_image/../../../opencv-2.4.10/build/OpenCVConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\opencv-2.4.10\build\" />
+      </Unit>
+      <Unit filename="/home/ccc/project/gazebo_project/get_image/../../../opencv-2.4.10/build/OpenCVModules.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\opencv-2.4.10\build\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>
